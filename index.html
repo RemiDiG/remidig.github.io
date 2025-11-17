@@ -1,0 +1,732 @@
+<!-- Personal Webpage -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Rémi DI GUARDIA</title>
+<meta name="author" content="Rémi Di Guardia">
+<meta name="date" content="2025-08-29">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="icon" href="images/irif.ico">
+</head>
+
+<body>
+
+<!-- Presentation -->
+<h1>
+  Rémi DI GUARDIA
+</h1>
+<p>
+  <!-- <img src="images/irif.ico" height="15" width="15"/> -->
+  I am a post-doc at <a href="https://www.irif.fr/">IRIF</a> (Paris) in the <a href="https://www.irif.fr/poles/pps/">Preuves, programmes et systèmes (PPS)</a> team.
+  My supervisor is <a href="https://www.irif.fr/~faggian/">Claudia Faggian</a>, and I also work with <a href="https://www.irif.fr/~ehrhard/">Thomas Ehrhard</a>.
+  I was hired thanks to the PEPR project <a href="https://project.inria.fr/epiq/">EPiQ</a> to study graphical syntaxes.
+  <br>
+  <!-- <img src="images/lip.ico" height="15" width="15"/> -->
+  Until September 2024, I was a PhD student in theoretical computer science at <a href="http://www.ens-lyon.fr/">Ecole Normale Supérieure de Lyon</a> in the <a href="http://www.ens-lyon.fr/LIP/">Laboratoire de l'Informatique du Parallélisme (LIP)</a>, in the <a href="http://www.ens-lyon.fr/LIP/PLUME/">Plume</a> team.
+  My PhD was supervised by <a href="https://perso.ens-lyon.fr/olivier.laurent/">Olivier Laurent</a> and focused on <a href="http://llwiki.ens-lyon.fr/">Linear Logic</a> and in particular its proof-net syntax. It was financed by the <a href="https://milyon.universite-lyon.fr/doctorants-contrats-doctoraux--47603.kjsp?RH=1537189060380&RF=1537193981834">LABEX MILYON</a>.
+  <br>
+  My research subjets are proof theory, with a particular focus on proof-nets from linear logic, formalisation of proofs, graphical syntaxes (eg. string diagrams), and graph theory.
+  I am broadly interested in the question of the identity of proofs.
+</p>
+
+<p>
+  CV: <a href="CV/CV_eng.pdf">English</a>, <a href="CV/CV_fr.pdf">Français</a><br>
+  E-mail: diguardia \at irif \dot fr, remi \dot di \dot guardia \at ens-lyon \dot org (warning: my @ens-lyon.fr e-mail does not work anymore, even if it does not send back any error message!)<br>
+  Office: 3028<br>
+</p>
+
+<hr>
+
+<!-- Publications -->
+<h2>
+  <a name="publications">Publications</a>
+</h2>
+<!-- (in reverse chronological order) --> <!-- to add if more publications -->
+
+<ul>
+  <li class="workshop">
+  <i>A Formalization of Multiplicative Proof-Nets in Rocq</i>
+  <br>
+  With <a href="https://perso.ens-lyon.fr/olivier.laurent/">Olivier Laurent</a> at <a href="https://lipn.univ-paris13.fr/TLLA/2025/">TLLA&nbsp;2025</a>
+  <br>
+  [
+  <a href="papers/rocqtlla2025.pdf"><img class="icon icon-pdf"/>PDF</a>&nbsp;|
+  <a href="talks/rocqseq_TLLA_2025.pdf"><img class="icon icon-slides"/>Slides</a>&nbsp;|
+  <a href="https://hal.science/hal-05198754"><img class="icon icon-hal"/>HAL</a>&nbsp;|
+  <a href="https://lipn.univ-paris13.fr/TLLA/2025/abstracts/01-diguardia-laurent.pdf"><img class="icon icon-file"/>Preprint</a>&nbsp;|
+  <a href="papers/rocqtlla2025.bib"><img class="icon icon-bib"/>BibTeX</a>&nbsp;|
+  cf. <a href="#software_development">Software Development</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We present an implementation of proof-nets for unit-free multiplicative linear logic in the proof assistant Rocq. It contains a definition of proof-structures and proof-nets, a proof of the sequentialization theorem as well as a definition of cut-elimination.
+  </p>
+  </details>
+  <br>
+  <img class="illustration" src="illustrations/rocqtlla2025.png" alt="Illustration for the paper A Formalization of Multiplicative Proof-Nets in Rocq"/>
+  </li>
+
+  <li class="conference">
+  <i>Yeo's Theorem for Locally Colored Graphs: the Path to Sequentialization in Linear Logic</i>
+  <br>
+  With <a href="https://perso.ens-lyon.fr/olivier.laurent/">Olivier Laurent</a>, <a href="https://logica.uniroma3.it/~tortora/">Lorenzo Tortora de Falco</a> and <a href="https://www.i2m.univ-amu.fr/perso/lionel.vaux/">Lionel Vaux Auclair</a> at <a href="https://fscd2025.github.io/">FSCD&nbsp;2025</a>
+  <br>
+  [
+  <a href="papers/mllyeoseq.pdf"><img class="icon icon-pdf"/>PDF</a>&nbsp;|
+  <a href="talks/seqmll_FSCD_2025.pdf"><img class="icon icon-slides"/>Slides</a>&nbsp;|
+  <a href="https://hal.science/hal-05149336"><img class="icon icon-hal"/>HAL</a>&nbsp;|
+  <a href="https://drops.dagstuhl.de/storage/00lipics/lipics-vol337-fscd2025/html/LIPIcs.FSCD.2025.16/LIPIcs.FSCD.2025.16.html"><img class="icon icon-html"/>HTML</a>&nbsp;|
+  <a href="https://doi.org/10.4230/LIPIcs.FSCD.2025.16"><img class="icon icon-doi"/>DOI</a>&nbsp;|
+  <a href="papers/mllyeoseq.bib"><img class="icon icon-bib"/>BibTeX</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We revisit sequentialization proofs associated with the Danos-Regnier correctness criterion in the theory of proof nets of linear logic. Our approach relies on a generalization of Yeo's theorem for graphs, based on colorings of half-edges. This happens to be the appropriate level of abstraction to extract sequentiality information from a proof net without modifying its graph structure. We thus obtain different ways of recovering a sequent calculus derivation from a proof net inductively, by relying on a splitting par-vertex, on a splitting tensor-vertex, on a splitting terminal vertex, etc.
+  <br>
+  The proof of our Yeo-style theorem relies on a key lemma that we call cusp minimization. Given a coloring of half-edges, a cusp in a path is a vertex whose adjacent half-edges in the path have the same color. And, given a cycle with at least one cusp and subject to suitable hypotheses, cusp minimization constructs a cycle with strictly less cusps. In the absence of cusp-free cycles, cusp minimization is then enough to ensure the existence of a splitting vertex, i.e. a vertex that is a cusp of any cycle it belongs to. Our theorem subsumes several graph-theoretical results, including some known to be equivalent to Yeo's theorem. The novelty is that they can be derived in a straightforward way, just by defining a dedicated coloring, again without any modification of the underlying graph structure (vertices and edges) - similar results from the literature required more involved encodings.
+  </p>
+  </details>
+  <br>
+  <img class="illustration" src="illustrations/mllyeoseq.png" alt="Illustration for the paper Yeo's Theorem for Locally Colored Graphs: the Path to Sequentialization in Linear Logic"/>
+  </li>
+  
+  <li class="thesis">
+  <i>Identity of Proofs and Formulas using Proof-Nets in Multiplicative-Additive Linear Logic</i>
+  <br>
+  Supervised by <a href="https://perso.ens-lyon.fr/olivier.laurent/">Olivier Laurent</a> at <a href="http://www.ens-lyon.fr/">Ecole Normale Supérieure de Lyon</a>
+  <br>
+  Defended on Sepember 23, 2024 in Salle des Thèses and online on <a href="https://bigbluebutton2.ens-lyon.fr/rooms/c3b-2vj-xeu-u13/join">BBB</a>
+  <br>
+  (The Manuscript has less typographical mistakes than what is available on HAL or Theses.fr.)
+  <br>
+  [
+  <a href="papers/thesis_manuscript.pdf"><img class="icon icon-pdf"/>Manuscript</a>&nbsp;|
+  <a href="talks/thesis_defense.pdf"><img class="icon icon-slides"/>Defense</a>&nbsp;|
+  <a href="https://theses.hal.science/tel-04830060"><img class="icon icon-hal"/>HAL</a>&nbsp;|
+  <a href="https://theses.fr/2024ENSL0050"><img class="icon icon-thesesfr"/>Theses.fr</a>&nbsp;|
+  <a href="papers/thesis.bib"><img class="icon icon-bib"/>BibTeX</a>
+  ]
+  <br>
+  <img class="illustration" src="illustrations/thesis.png" alt="Illustration for my thesis"/>
+  </li>
+  
+  <li class="workshop">
+  <i>Sequentialization is as fun as bungee jumping</i>
+  <br>
+  With <a href="https://perso.ens-lyon.fr/olivier.laurent/">Olivier Laurent</a>, <a href="https://logica.uniroma3.it/~tortora/">Lorenzo Tortora de Falco</a> and <a href="https://www.i2m.univ-amu.fr/perso/lionel.vaux/">Lionel Vaux Auclair</a> at <a href="https://lipn.univ-paris13.fr/TLLA/2023/">TLLA&nbsp;2023</a>
+  <br>
+  [
+  <a href="papers/mllseq.pdf"><img class="icon icon-pdf"/>PDF</a>&nbsp;|
+  <a href="talks/expose_TLLA_2023.pdf"><img class="icon icon-slides"/>Slides</a>&nbsp;|
+  <a href="https://hal.science/hal-04515300"><img class="icon icon-hal"/>HAL</a>&nbsp;|
+  <a href="https://lipn.univ-paris13.fr/TLLA/2023/abstracts/06-Final.pdf"><img class="icon icon-file"/>Preprint</a>&nbsp;|
+  <a href="papers/mllseq.bib"><img class="icon icon-bib"/>BibTeX</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We propose a new proof of sequentialization for the proof nets of unit-free multiplicative linear logic with mix. It is based on the search of a splitting par by means of a simple new lemma about proof structures: the bungee jumping lemma.
+  </p>
+  </details>
+  <br>
+  <img class="illustration" src="illustrations/mllseq.png" alt="Illustration for the paper Sequentialization is as fun as bungee jumping"/>
+  </li>
+  
+  <a name="Type Isomorphisms for Multiplicative-Additive Linear Logic Conference"><li class="conference"></a>
+  <i>Type Isomorphisms for Multiplicative-Additive Linear Logic</i>
+  <br>
+  With <a href="https://perso.ens-lyon.fr/olivier.laurent/">Olivier Laurent</a> at <a href="https://easyconferences.eu/fscd2023/">FSCD&nbsp;2023</a>
+  (see HAL for the full version with proofs)
+  <br>
+  Superseded by its (soon to be published) <a href="#Type Isomorphisms for Multiplicative-Additive Linear Logic Journal">journal version</a>
+  <br>
+  [
+  <a href="papers/mallisos.pdf"><img class="icon icon-pdf"/>PDF</a>&nbsp;|
+  <a href="talks/isos_fscd_2023.pdf"><img class="icon icon-slides"/>Slides</a>&nbsp;|
+  <a href="https://hal.science/hal-04082204"><img class="icon icon-hal"/>HAL</a>&nbsp;|
+  <a href="https://doi.org/10.4230/LIPIcs.FSCD.2023.26"><img class="icon icon-doi"/>DOI</a>&nbsp;|
+  <a href="papers/mallisos.bib"><img class="icon icon-bib"/>BibTeX</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We characterize type isomorphisms in the multiplicative-additive fragment of linear logic (MALL), and thus for *-autonomous categories with finite products, extending a result for the multiplicative fragment by Balat and Di Cosmo. This yields a much richer equational theory involving distributivity and annihilation laws. The unit-free case is given by relying on the proof-net syntax introduced by Hughes and Van Glabbeek. We then use the sequent calculus to extend our results to full MALL (including all units).
+  </p>
+  </details>
+  <br>
+  <img class="illustration" src="illustrations/mallisos.png" alt="Illustration for the paper Type Isomorphisms for Multiplicative-Additive Linear Logic"/>
+  </li>
+  
+  <li class="workshop">
+  <i>Bottom-Up Sequentialization of Unit-Free MALL Proof Nets</i>
+  <br>
+  With <a href="https://perso.ens-lyon.fr/olivier.laurent/">Olivier Laurent</a> at <a href="https://lipn.univ-paris13.fr/LinearityTLLA2022/">Linearity - TLLA&nbsp;2022</a>
+  <br>
+  [
+  <a href="papers/mallseq.pdf"><img class="icon icon-pdf"/>PDF</a>&nbsp;|
+  <a href="talks/MALL_TLLA.pdf"><img class="icon icon-slides"/>Slides</a> (also on <a href="https://easychair.org/smart-slide/slide/3vD8">Easychair</a>)&nbsp;|
+  <a href="https://hal.science/hal-03719939"><img class="icon icon-hal"/>HAL</a>&nbsp;|
+  <a href="https://easychair.org/publications/preprint/7SQr"><img class="icon icon-file"/>Preprint</a>&nbsp;|
+  <a href="papers/mallseq.bib"><img class="icon icon-bib"/>BibTeX</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We propose a new proof of sequentialization for the proof nets of unit-free multiplicative-additive linear logic of Hughes & Van Glabbeek. This is done by adapting a method from unit-free multiplicative linear logic, showing the robustness of this approach.
+  </p>
+  </details>
+  <br>
+  <img class="illustration" src="illustrations/mallseq.png" alt="Illustration for the paper Bottom-Up Sequentialization of Unit-Free MALL Proof Nets"/>
+  </li>
+</ul>
+
+<!-- Publications in progress -->
+<!-- -->
+<h2>
+  Accepted but not yet published
+</h2>
+
+<ul>
+  <a name="Type Isomorphisms for Multiplicative-Additive Linear Logic Journal"><li class="journal"></a>
+  <i>Type Isomorphisms for Multiplicative-Additive Linear Logic</i>
+  <br>
+  With <a href="https://perso.ens-lyon.fr/olivier.laurent/">Olivier Laurent</a> at <a href="https://lmcs.episciences.org/">LMCS</a> (after invitation, extended version of the <a href="#Type Isomorphisms for Multiplicative-Additive Linear Logic Conference">FSCD 2023 article</a> with the same name)
+  <br>
+  [
+  <a href="papers/mallisos_journal.pdf"><img class="icon icon-pdf"/>PDF</a>&nbsp;|
+  <!-- <a href="???"><img class="icon icon-lmcs"/>LMCS</a>&nbsp;| -->
+  <a href="https://arxiv.org/abs/2402.11987"><img class="icon icon-arxiv"/>ARXIV</a>&nbsp;|
+  <a href="https://hal.science/hal-04460547"><img class="icon icon-hal"/>HAL</a>
+  <!-- <a href="https://doi.org/10.4230/LIPIcs.FSCD.2023.26"><img class="icon icon-doi"/>DOI</a>&nbsp;| -->
+  <!-- <a href="papers/mallisos.bib"><img class="icon icon-bib"/>BibTeX</a> -->
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We characterize type isomorphisms in the multiplicative-additive fragment of linear logic (MALL), and thus in *-autonomous categories with finite products, extending a result for the multiplicative fragment by Balat and Di Cosmo. This yields a much richer equational theory involving distributivity and cancellation laws. The unit-free case is obtained by relying on the proof-net syntax introduced by Hughes and Van Glabbeek. We use the sequent calculus to extend our results to full MALL, including all units, thanks to a study of cut-elimination and rule commutations. 
+  </p>
+  </details>
+  </li>
+</ul>
+
+<!-- Submissions in progress -->
+<!--
+<h2>
+  Submissions
+</h2>
+
+<ul>
+</ul>
+-->
+
+<!-- Failed Submissions -->
+<!--
+<h2>
+  Failed submissions
+</h2>
+
+<ul>
+  <li>
+  <i>Yeo's Theorem for Locally Colored Graphs: the Path to Sequentialization in Linear Logic</i>
+  <br>
+  With <a href="https://perso.ens-lyon.fr/olivier.laurent/">Olivier Laurent</a>, <a href="https://logica.uniroma3.it/~tortora/">Lorenzo Tortora de Falco</a> and <a href="https://www.i2m.univ-amu.fr/perso/lionel.vaux/">Lionel Vaux Auclair</a> at <a href="https://csl2025.github.io/">CSL&nbsp;2025</a>
+  </li>
+</ul>
+-->
+
+<!-- Other works -->
+<h2>
+  <a name="software_development">Software Development</a>
+</h2>
+
+<ul>
+  <li>
+  Formalisation of the Proof-Nets of Multiplicative Linear Logic in <a href="https://rocq-prover.org/">Rocq<img class="icon-right" src="images/avatar-rocq-5.svg"/></a> (previously known as Coq), available on <a href="https://github.com/RemiDiG/proofnet_mll">github<img class="icon-right" src="images/github.svg"/></a> (up-to-date), <a href="https://archive.softwareheritage.org/browse/directory/53def4330cb28b417c83405f68a67a9735a95d1d/">Software Heritage<img class="icon-right" src="images/swh-logo.png"/></a> and <a href="https://hal.science/hal-05015800">HAL<img class="icon-right" src="images/hal.png"/></a>
+  <br>
+  The sequentialization theorem is proved here (with no admit), but there still are some simplifications to be done.
+  There also is a definition of cut-elimination, and a proof it terminates.
+  </li>
+</ul>
+
+<h2>
+  Unpublished Short Notes (not even in my thesis)
+</h2>
+
+<ul>
+  <li>
+  <i>Proof Equivalence in Linear Logic is Undecidable</i>
+  <br>
+  [
+  <a href="papers/note_indecidability_proof_equivalence.pdf"><img class="icon icon-pdf"/>PDF</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  Proofs of linear logic are often considered up to rule commutations. We prove that knowing whether two given proofs are equal up to rule commutations, or not, is undecidable.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Cut-Cut Commutations Are Not Superfluous</i>
+  <br>
+  [
+  <a href="papers/note_cut-cut_not_superfluous.pdf"><img class="icon icon-pdf"/>PDF</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  In the definition of a cut-elimination procedure, there often is a cut-cut commutation allowing to swap two cut-rules. This allows for instance to fully eliminate a chosen cut-rule without reducing other such rules in a proof. One may wonder whether such cut-cut steps are superfluous. We prove it is not the case in linear logic: some cut-free forms of a proof can only be reached using a cut-cut commutation.
+  (Improved thanks to comments by <a href="https://perso.ens-lyon.fr/olivier.laurent/">Olivier Laurent</a>.)
+  </p>
+  </details>
+  </li>
+</ul>
+
+<!-- Talks given -->
+<h2>
+  Talks
+</h2>
+<ul>
+  <li>
+  <i>Bayesian Networks and Proof-Nets: the proof-theory of Bayesian Inference</i>, <a href="https://indico.math.cnrs.fr/event/14513/">ArpiLYSM 2</a>, Arpino, 11 November 2025.
+  <br>
+  [
+  <a href="talks/expose_ArpiLYSM_2025.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  Bayesian Networks are a graphical syntax describing probability distributions compactly by following dependencies of variables. I will present the correspondence between these Bayesian Networks and Proof Nets, a graphical syntax for proofs in linear logic. Uses of such a correspondence are giving a proof-theoretical account of Bayesian inference (in the spirit of the Curry-Howard correspondence), and exploiting the expressivity of Proof Nets to get compositional graphical methods where each intermediate graph is associated to a probability distribution.
+  (Join work with Thomas Ehrhard and Claudia Faggian.)
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Confluence of Cut-elimination and Rules commutations in Linear Logic</i>, <a href="https://www.irif.fr/gt-scalp/journees-2025">Journées 2025 du GT Scalp</a>, Vitry-sur-Seine, 29 October 2025.
+  <br>
+  [
+  <a href="talks/expose_SCALP_2025.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  This talk studies the identity of proofs: when are two proofs equal? Generally, syntactic equality is too constraint, and one wants to (at least) identify proofs up to cut-elimination - which is similar to identifying &#955;-terms up to &beta;-reduction.
+  We begin by giving intuitions for this problem in simply typed &#955;-calculus, where it is easily solved thanks to strong normalization and confluence of &beta;-reduction. Then, we see which problems arise when trying to mimic this reasoning in Linear Logic. The main difficulty is that cut-elimination is only confluent up to an equivalence relation known as rule commutations, which is not easy to prove.
+  We conclude by showing that knowing whether two given proofs are equal up to rule commutations, or not, is undecidable.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Cut-Expansion in Proof-Nets of Multiplicative Linear Logic</i>, joint seminar of the <a href="https://lsc.lis-lab.fr/lsc-seminar/">LCS</a> and <a href="https://www.i2m.univ-amu.fr/seminaires-i2m/logique-et-interactions/">LDP</a> groups, Lumini, 9 October 2025.
+  <br>
+  [
+  <a href="talks/expose_Marseille_2025.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  Cut-elimination is a rewriting system defined in many logics, which has been widely studied. In general, a major result is to prove its weak normalization, which implies a provable formula always admits a cut-free proof. From this, various results can be more easily deduced: for instance that there is no proof of false. However, the reverse procedure - that we call cut-expansion - has been much less studied even though it is also useful! A goal here is the following: given a proof π with many cuts, can we find a proof π' with exactly one cut at its root and that reduces to π? Such a result has two applications. First, it allows to find a Craig's interpolant in the spirit of [Sau25,FOS25]. It is also useful in the case of a denotational semantic: while it is often clear how to interpret a single cut-rule between two proofs, it may not be the case for two proofs linked by "a bunch" of cut-rules - this problem was encountered e.g. in [EFP24].
+  We will present a very simple proof on how to apply cut-expansion steps to obtain only one cut-rule from a proof with many cut-rules in Multiplicative Linear Logic. We do so in the proof-net syntax as the proof is really easy to intuit in this formalism. We then use this result to immediately get a proof of Craig's interpolation. Lastly, and if time allows, we sketch how to extend our proof to full linear logic.
+  <br>
+  [Sau25] Alexis Saurin. Interpolation as Cut-Introduction: On the Computational Content of Craig-Lyndon Interpolation. FSCD 2025. https://doi.org/10.4230/LIPIcs.FSCD.2025.32
+  <br>
+  [FOS25] Guido Fiorillo, Daniel Osorio Valencia, and Alexis Saurin. On Correctness, Sequentialization and Interpolation. TLLA 2025.
+  <br>
+  [EFP24] Thomas Ehrhard, Claudia Faggian, and Michele Pagani. Bayesian Networks and Proof-Nets: a proof-theoretical account of Bayesian Inference. Technical Report. https://doi.org/10.48550/arXiv.2412.20540
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>A Formalization of Multiplicative Proof-Nets in Rocq</i>, <a href="https://lipn.univ-paris13.fr/TLLA/2025/">TLLA&nbsp;2025</a>, Birmingham, 19 July 2025.
+  <br>
+  [
+  <a href="talks/rocqseq_TLLA_2025.pdf"><img class="icon icon-slides"/>Slides</a>&nbsp;|
+  cf. <a href="#publications">Publications</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We present an implementation of proof-nets for unit-free multiplicative linear logic in the proof assistant Rocq. It contains a definition of proof-structures and proof-nets, a proof of the sequentialization theorem as well as a definition of cut-elimination.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Yeo's Theorem for Locally Colored Graphs: the Path to Sequentialization in Linear Logic</i>, <a href="https://fscd2025.github.io/">FSCD&nbsp;2025</a>, Birmingham, 18 July 2025.
+  <br>
+  [
+  <a href="talks/seqmll_FSCD_2025.pdf"><img class="icon icon-slides"/>Slides</a>&nbsp;|
+  cf. <a href="#publications">Publications</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We revisit sequentialization proofs associated with the Danos-Regnier correctness criterion in the theory of proof nets of linear logic. Our approach relies on a generalization of Yeo's theorem for graphs, based on colorings of half-edges. This happens to be the appropriate level of abstraction to extract sequentiality information from a proof net without modifying its graph structure. We thus obtain different ways of recovering a sequent calculus derivation from a proof net inductively, by relying on a splitting par-vertex, on a splitting tensor-vertex, on a splitting terminal vertex, etc.
+  The proof of our Yeo-style theorem relies on a key lemma that we call cusp minimization. Given a coloring of half-edges, a cusp in a path is a vertex whose adjacent half-edges in the path have the same color. And, given a cycle with at least one cusp and subject to suitable hypotheses, cusp minimization constructs a cycle with strictly less cusps. In the absence of cusp-free cycles, cusp minimization is then enough to ensure the existence of a splitting vertex, i.e. a vertex that is a cusp of any cycle it belongs to. Our theorem subsumes several graph-theoretical results, including some known to be equivalent to Yeo's theorem. The novelty is that they can be derived in a straightforward way, just by defining a dedicated coloring, again without any modification of the underlying graph structure (vertices and edges) - similar results from the literature required more involved encodings.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Identity of Proofs and Formulas in Linear Logic</i>, <a href="https://www.irif.fr/rencontres/pps2025/index">Journées PPS 2025</a>, Paris, 1 July 2025.
+  <br>
+  [
+  <a href="talks/expose_PPS_2025.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  In a logical system, deciding whether two proofs, or two formulas, are equal is often complicated. Indeed, one usually does not want to identify only proofs that are syntactically equal, i.e. whose rules are exactly the same. In many sequent calculi, there is a cut rule that allows for computation - through a process called cut-elimination - and one wishes for two proofs related by such a computation to be equivalent. Looking at programs through the Curry-Howard correspondence, even if 2 + 2 and (1 + 2) + 1 are not strictly the same term, it is still very sensible to identify them. Another notion of identity on proofs is axiom-expansion, corresponding to the fact that a function f should be considered the same as x &#8614; f(x), the function that takes an input x and returns f(x), which is again very natural to ask for. Hence, proofs are seen as equivalent up to these two relations (at least), which in many logical systems is either a trivial nonsense or a combinatorial nightmare. Furthermore, these equalities between proofs yield a notion of equality between formulas, called isomorphism. Two formulas A and B are isomorphic if there are proofs between them whose compositions yield identities - up to the above equivalence relations. Intuitively, this means there is a loseless encoding between A and B, and thus they can be considered as the same; for instance, every use of A can be replaced with one use of B. I will present and give a survey of these two problems of equalities in the framework of linear logic.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Identity of formulas and proofs</i>, <a href="https://sites.google.com/view/pacman2025-rome/">PACM&and;N 2025</a>, Rome, 16 May 2025.
+  <br>
+  [
+  <a href="talks/expose_PACMAN_2025.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  In a logical system, deciding whether two proofs (or two formulas) are equal is usually complicated.
+Indeed, one usually does not want to identify only proofs that are syntactically equal, i.e. whose rules are exactly the same. In many sequent calculi, there is a cut rule that allows for computation - through a process called cut-elimination - and one wishes for two proofs related by such a computation to be the same. Looking at programs through the Curry-Howard correspondence, even if 2 + 2 and (1 + 2) + 1 are not strictly the same term, it is still very sensible to identify them. Another notion of identity on proofs is axiom-expansion, corresponding to the fact that a function f should be considered the same as x &#8614; f(x), the function that takes an input x and returns f(x), which is again very natural to ask for. Hence, proofs are seen as equivalent up to these two relations, which in general is either a trivial nonsense or a combinatorial nightmare.
+Furthermore, these equalities between proofs yield a notion of equality between formulas, called isomorphism. Two formulas A and B are isomorphic if there are proofs between them whose compositions yield identities - up to the above equivalence relations. Intuitively, this means there is a loseless encoding between A and B, and thus they can be considered as the same; for instance, every use of A can be replaced with one use of B.
+  I will present this problem of equalities, in the setting of lambda-calculus and linear logic, along with some known results and difficulties.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Yeo's Theorem for Locally Colored Graphs: the Path to Sequentialization in Linear Logic</i>, <a href="https://irn-li.math.cnrs.fr/kickoff.html">Kickoff meeting</a> of the <a href="https://irn-li.math.cnrs.fr/index.html">IRN-LI</a>, Rome, 12 May 2025.
+  <br>
+  [
+  <a href="talks/expose_LI_2025.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We revisit sequentialization proofs associated with the Danos-Regnier correctness criterion in the theory of proof nets of linear logic. Our approach relies on a generalization of Yeo's theorem for graphs, based on colorings of half-edges. This happens to be the appropriate level of abstraction to extract sequentiality information from a proof net without modifying its graph structure. We thus obtain different ways of recovering a sequent calculus derivation from a proof net inductively, by relying on a splitting par-vertex, on a splitting tensor-vertex, on a splitting terminal vertex, etc.
+The proof of our Yeo-style theorem relies on a key lemma that we call cusp minimization. Given a coloring of half-edges, a cusp in a path is a vertex whose adjacent half-edges in the path have the same color. And, given a cycle with at least one cusp and subject to suitable hypotheses, cusp minimization constructs a cycle with strictly less cusps. In the absence of cusp-free cycles, cusp minimization is then enough to ensure the existence of a splitting vertex, i.e. a vertex that is a cusp of any cycle it belongs to. Our theorem subsumes several graph-theoretical results, including some known to be equivalent to Yeo's theorem. The novelty is that they can be derived in a straightforward way, just by defining a dedicated coloring, again without any modification of the underlying graph structure (vertices and edges); similar results from the literature required more involved encodings. 
+  <br>
+  (Joint work with Olivier Laurent, Lorenzo Tortora de Falco and Lionel Vaux Auclair.)
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Une formalisation en Rocq/Coq des réseaux de preuve de la logique linéaire</i>, Groupe de travail of the <a href="https://igg.icube.unistra.fr/index.php">IGG team</a> of <a href="https://icube.unistra.fr/">ICube</a>, Strasbourg, 3 April 2025.
+  <br>
+  [
+  <a href="talks/coq_strasbourg_2025.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract (in French)
+  </summary>
+  <p>
+  Les réseaux de preuve sont une contribution majeure de la logique linéaire. Contrairement aux représentations usuelles des preuves comme des arbres de dérivation, un réseau représente une preuve comme un graphe respectant certaines contraintes. Cette syntaxe graphique a de meilleures propriétés, mais n'est pas inductive. Cela explique que malgré une littérature pléthorique sur papier, il y a très peu de formalisations dans des assistants de preuve sur ce sujet : l'obstacle principal est la manipulation de (multi-)graphes sur ordinateur. Je vais présenter une formalisation de ces objets en Rocq/Coq, avec leur définition et quelques résultats standards. En particulier, je vais appuyer sur les difficultés rencontrées et les solutions trouvées en réponse.
+  <br>
+  (Travail issu majoritairement de ma thèse, supervisée par Olivier Laurent.)
+  </p>
+  </details>
+  </li>
+
+  <li>
+  <i>A simple proof of sequentialization for proof-nets, and links with graph theory</i>, <a href="https://www.irif.fr/seminaires/semantique/">Groupe de travail of the Sémantique team</a> of <a href="https://www.irif.fr/">IRIF</a>, Paris, 28 January 2025.
+  <br>
+  [
+  On blackboard
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  Proof-nets are a major contribution from linear logic. Contrary to the usual representation of proofs as derivation trees in sequent calculus, proof-nets represent proofs as general graphs respecting some correctness criterion. A standard result is that these two syntaxes correspond to each other, which is called sequentialization. Despite being a well-known theorem, its proofs in the literature are generally complex. I will present a new simple proof for proof-nets of multiplicative linear logic, modular enough to still apply in the presence of the mix-rule.
+  Then, I will develop links between sequentialization and more general graph theory, following on works from Rétoré and Nguyen but focusing on edge-colored graphs instead of perfect matchings.
+  <br>
+  (Joint work with Olivier Laurent, Lorenzo Tortora de Falco and Lionel Vaux Auclair.)
+  </p>
+  </details>
+  </li>
+
+  <li>
+  <i>Autour du théorème de Yeo</i>, <a href="https://www.ens-lyon.fr/LIP/PLUME/?page_id=202">Groupe de travail of the Plume team</a> of <a href="http://www.ens-lyon.fr/LIP/">LIP</a>, Lyon, 24 June 2024.
+  <br>
+  [
+  On blackboard
+  ]
+  <details>
+  <summary>
+  Abstract (in French)
+  </summary>
+  <p>
+  Cet exposé présentera une preuve simple du théorème de Yeo [1], après avoir donné les usuelles notions de théorie des graphes nécessaires (chemin, cycle, coloriage d'arêtes, ...).
+  Cette démonstration est basée sur un nouveau résultat facile à montrer : le saut à l'élastique.
+  Je discuterai ensuite rapidement, si le temps le permet, de généralisations et d'applications de ce théorème.
+  <br>
+  [1] Anders Yeo. "A Note on Alternating Cycles in Edge-Coloured Graphs". In: Journal of Combinatorial Theory, Series B 69.2 (1997), pp. 222-225.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Retractions in Multiplicative Linear Logic</i>, <a href="https://chocola.ens-lyon.fr/">Chocola</a>, Lyon, 14 March 2024.
+  <br>
+  [
+  <a href="talks/ret_chocola_2024.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  Given formulas A and B, A is a retraction of B if there exist proofs of A |- B and B |- A which compose to the axiom on A, up to cut-elimination and axiom-expansion. This gives a natural notion of sub-tying, and corresponds to retractions in the category of proofs: objects are formulas, and morphisms proofs up to cut-elimination and axiom-expansion. While isomorphisms for multiplicative linear logic have been characterized (Balat & Di Cosmo gave a corresponding equational theory in 1999), and there is a well-known retraction (which is not an isomorphism), there is not even a conjecture on what the set of retractions could be.
+  I will present a work in progress about this problem, giving properties showing the problem should not be too hard, then solving the case "an atom X is a retraction of a formula B" using proof nets. Meanwhile, I will also show difficulties for solving the general case, as well as what happens in other fragments of linear logic.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Retractions in Multiplicative Linear Logic</i>, Group Seminar of the <a href="https://www.bath.ac.uk/teams/mathematical-foundations-of-computation-group-members/">Mathematical Foundations of Computation</a> team of the <a href="https://www.bath.ac.uk/"> University of Bath</a>, Bath, 1 March 2024.
+  <br>
+  [
+  <a href="talks/ret_bath_2024.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  Given formulas A and B, A is a retraction of B if there exist proofs of A |- B and B |- A which compose to the axiom on A, up to cut-elimination and axiom-expansion. This gives a natural notion of sub-tying, and corresponds to retractions in the category of proofs: objects are formulas, and morphisms proofs up to cut-elimination and axiom-expansion. While isomorphisms for multiplicative linear logic have been characterized (Balat & Di Cosmo gave a corresponding equational theory in 1999), and there is a well-known retraction (which is not an isomorphism), there is not even a conjecture on what the set of retractions could be.
+  I will present a work in progress about this problem, giving properties showing the problem should not be too hard, then solving the case "an atom X is a retraction of a formula B" using proof nets. Meanwhile, I will also show difficulties for solving the general case, as well as what happens in other fragments of linear logic.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Retractions for Multiplicative Linear Logic</i>, <a href="https://www.irif.fr/gt-scalp/journees-2023">Journées 2023 du GT Scalp</a>, Orléans, 29 November 2023.
+  <br>
+  [
+  <a href="talks/ret_scalp_2023.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract (in French)
+  </summary>
+  <p>
+  Je vais parler de rétraction en logique. Pour des formules A et B, A est une rétraction de B s'il existe des preuves de A |- B et B |- A dont la composition par coupure sur B est égale à l'axiome sur A, à élimination des coupures et expansion des axiomes près. Cela correspond aux rétractions dans la catégorie des preuves : les objets sont des formules, les morphismes des preuves (considérées à élimination des coupures et expansion des axiomes près), la composition est la coupure et les identités les axiomes.
+  Alors que les isomorphismes de MLL sont connus (Balat et Di Cosmo ont donné une théorie équationnelle correspondante), et qu'il y a une rétraction (qui n'est pas un isomorphisme) de bien connue, il n'y a même pas d'hypothèse sur ce que pourraient être l'ensemble des rétractions.
+  Je vais présenter un travail en cours sur les rétractions de la forme "un atome X est une rétraction de B", et quelles sont les difficultés pour étendre ce résultat au cas de formules quelconques.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Type Isomorphisms for Multiplicative-Additive Linear Logic</i>, <a href="https://easyconferences.eu/fscd2023/">FSCD&nbsp;2023</a>, Rome, 4 July 2023.
+  <br>
+  [
+  <a href="talks/isos_fscd_2023.pdf"><img class="icon icon-slides"/>Slides</a>&nbsp;|
+  cf. <a href="#publications">Publications</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We characterize type isomorphisms in the multiplicative-additive fragment of linear logic (MALL), and thus for *-autonomous categories with finite products, extending a result for the multiplicative fragment by Balat and Di Cosmo. This yields a much richer equational theory involving distributivity and annihilation laws. The unit-free case is given by relying on the proof-net syntax introduced by Hughes and Van Glabbeek. We then use the sequent calculus to extend our results to full MALL (including all units).
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Sequentialization is as fun as bungee jumping</i>, <a href="https://lipn.univ-paris13.fr/TLLA/2023/">TLLA&nbsp;2023</a>, Rome, 1 July 2023.
+  <br>
+  [
+  <a href="talks/expose_TLLA_2023.pdf"><img class="icon icon-slides"/>Slides</a>&nbsp;|
+  cf. <a href="#publications">Publications</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We propose a new proof of sequentialization for the proof nets of unit-free multiplicative linear logic with mix. It is based on the search of a splitting par by means of a simple new lemma about proof structures: the bungee jumping lemma.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Proof theory and linear logic</i>, PhD student's seminar of <a href="http://www.ens-lyon.fr/LIP/">LIP</a>, Lyon, 27 June 2023.
+  <br>
+  [
+  <a href="talks/phd_seminar.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+  </li>
+  
+  <li>
+  <i>A simple proof of sequentialization for MLL proof nets</i>, <a href="https://www.ens-lyon.fr/LIP/PLUME/?page_id=202">Groupe de travail of the Plume team</a> of <a href="http://www.ens-lyon.fr/LIP/">LIP</a>, Lyon, 15 May 2023.
+  <br>
+  [
+  On blackboard
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We will present proof nets for unit-free multiplicative linear logic (MLL) before giving a new simple proof of the sequentialization theorem, the key result affirming that proof-nets do indeed represent proofs.
+  This simple proof holds in the presence of the mix rule, and is robust enough to be adapted to proof nets with the additive connectives.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Type isomorphisms for Multiplicative-Additive Linear Logic</i>, <a href="https://www.ens-lyon.fr/LIP/PLUME/?page_id=202">Groupe de travail of the Plume team</a> of <a href="http://www.ens-lyon.fr/LIP/">LIP</a>, Lyon, 10 October 2022 & 7 November 2022.
+  <br>
+  [
+  On blackboard
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We will speak about isomorphisms in logic. Two formulas A and B are isomorphic if there are proofs of A |- B and of B |- A such that their composition by cut over B (resp. A) is equal to the axiom of A (resp. B) up to cut elimination and axiom expansion. This corresponds to isomorphisms in the category of proofs: objects are formulas, morphisms are proofs (up to cut elimination and axiom expansion), composition is cut and identities are axioms.
+  The problem of characterizing isomorphisms in Multiplicative Linear Logic was already solved by Balat and Di Cosmo. They proved that isomorphisms correspond to associativity and commutativity of the connectives tensor and par, as well as neutrality of the units one and bottom.
+  Their proof uses in an essential way proof nets, an alternative representation of proofs with respect to proof trees.
+  The case of Multiplicative-Additive Linear Logic, with the additive connectives plus and with, is more complex because of the distributive laws of the tensor over the plus and of the par over the with.
+  During this presentation, we will introduce the notion of isomorphism in different settings, before giving an overview of the proof from Balat and Di Cosmo and then explaining how to extend it in the presence of additives.
+  </p>
+  </details>
+  </li>
+  
+  <li>
+  <i>Bottom-Up Sequentialization of Unit-Free MALL Proof Nets</i>, <a href="https://lipn.univ-paris13.fr/LinearityTLLA2022/">Linearity - TLLA&nbsp;2022</a>, Haifa, 31 July 2022.
+  <br>
+  [
+  <a href="talks/MALL_TLLA.pdf"><img class="icon icon-slides"/>Slides</a>&nbsp;|
+  cf. <a href="#publications">Publications</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  We propose a new proof of sequentialization for the proof nets of unit-free multiplicative-additive linear logic of Hughes & Van Glabbeek. This is done by adapting a method from unit-free multiplicative linear logic, showing the robustness of this approach.
+  </p>
+  </details>
+  </li>
+</ul>
+
+<!-- Teaching -->
+<hr>
+<h2>
+  Teaching
+</h2>
+
+<ul>
+  <li>
+  2023 - 2024
+  <ul>
+    <li>
+    <i>Architecture des ordinateurs</i>, lectured by <a href="http://sylvain.brandel.pages.univ-lyon1.fr/">Sylvain Brandel</a> (L2 at Université Claude Bernard Lyon 1)
+    </li>
+    
+    <li>
+    <i>Logique</i>, lectured by <a href="https://perso.ens-lyon.fr/natacha.portier/">Natacha Portier</a> (L3 at Ecole Normale Supérieure de Lyon)
+    </li>
+  </ul>
+  </li>
+  
+  <li>
+  2022 - 2023
+  <ul>
+    <li>
+    <i>Compilation and Program Analysis</i>, lectured by <a href="https://www.irif.fr/~gradanne/">Gabriel Radanne</a> and <a href="https://lhenrio.github.io/">Ludovic Henrio</a> (M1 at Ecole Normale Supérieure de Lyon)
+    </li>
+    
+    <li>
+    <i>Functional Project</i>, lectured by <a href="https://perso.ens-lyon.fr/daniel.hirschkoff/">Daniel Hirschkoff</a> (L3 at Ecole Normale Supérieure de Lyon)
+    </li>
+  </ul>
+  </li>
+  
+  <li>
+  2021 - 2022
+  <ul>
+    <li>
+    <i>Compilation and Program Analysis</i>, lectured by <a href="https://www.irif.fr/~gradanne/">Gabriel Radanne</a> and <a href="https://lhenrio.github.io/">Ludovic Henrio</a> (M1 at Ecole Normale Supérieure de Lyon)
+    </li>
+    
+    <li>
+    <i>Functional Project</i>, lectured by <a href="https://perso.ens-lyon.fr/daniel.hirschkoff/">Daniel Hirschkoff</a> (L3 at Ecole Normale Supérieure de Lyon)
+    </li>
+  </ul>
+  </li>
+  
+  <li>
+  I also gave a proof of sequentialization for proof-nets of multiplicative linear logic during the lectures of <a href="https://www.irif.fr/~faggian/">Claudia Faggian</a> for <a href="https://www.irif.fr/~faggian/LMFI_2025/">LMFI 2024/2025</a> and <a href="https://www.irif.fr/~faggian/MPRI/">MPRI 2025/2026</a>.
+  <br>
+  [
+  <a href="others/sequentialisation.pdf"><img class="icon icon-slides"/>Slides</a>
+  ]
+</ul>
+
+<!-- Last updated date automatically -->
+<body onload="myFunction()">
+<script>
+function myFunction() {
+  var d = new Date(document.lastModified).toISOString();
+  document.getElementById("lastupdated").innerHTML = d.substr(8, 2) + "/" + d.substr(5, 2) + "/" + d.substr(0, 4);
+}
+</script>
+<i>(Last updated the <span id='lastupdated'></span>.)</i>
+</body>
+
+<!--
+https://dblp.org/pid/350/4015.html
+-->
+</html>

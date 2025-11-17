@@ -1,0 +1,80 @@
+/* Style for my Personal Webpage */
+
+/* Type of publications */
+.workshop::before {
+  content: 'WORKSHOP\A';
+  white-space: pre;
+  background-color: turquoise;
+  font-family: monospace;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
+.conference::before {
+  content: 'CONFERENCE\A';
+  white-space: pre;
+  background-color: orange;
+  font-family: monospace;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
+.journal::before {
+  content: 'JOURNAL\A';
+  white-space: pre;
+  background-color: violet;
+  font-family: monospace;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
+.thesis::before {
+  content: 'THESIS\A';
+  white-space: pre;
+  background-color: crimson;
+  font-family: monospace;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
+
+/* Icons */
+.icon {
+  height: 20px;
+  vertical-align:middle;
+  padding: 0px 5px 0px 0px;
+}
+.icon-pdf {
+  content: url("images/pdf.svg");
+}
+.icon-slides {
+  content: url("images/slides.svg");
+}
+.icon-hal {
+  content: url("images/hal.png");
+}
+.icon-file {
+  content: url("images/file.svg");
+}
+.icon-bib {
+  content: url("images/bib.svg");
+}
+.icon-doi {
+  content: url("images/doi.svg");
+}
+.icon-arxiv {
+  content: url("images/arxiv.svg");
+}
+.icon-thesesfr {
+  content: url("images/thesesfr.svg");
+}
+.icon-html {
+  content: url("images/html.svg");
+}
+
+.icon-right {
+  height: 20px;
+  vertical-align:middle;
+  padding: 0px 0px 0px 5px;
+}
+
+.illustration {
+  height: 200px;
+  padding: 0.5em;
+}
