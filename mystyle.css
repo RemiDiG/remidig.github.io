@@ -67,6 +67,9 @@
 .icon-html {
   content: url("images/html.svg");
 }
+.icon-lmcs {
+  content: url("images/lmcs.png");
+}
 
 .icon-right {
   height: 20px;
