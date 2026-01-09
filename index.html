@@ -324,6 +324,24 @@ function lastupdatedfunct() {
 </h2>
 <ul>
   <li>
+  <i>Confluence of Cut-elimination up to Rules commutations in Linear Logic</i>, <a href="https://www.irif.fr/en/seminaires/sms/index">Seminar Syntax Meets Semantics</a>, Paris, 8 January 2026.
+  <br>
+  [
+  <a href="talks/expose_SMS_2026.pdf"><span class="icon icon-slides"></span>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  This talk considers the identity of proofs: when are two proofs equal? Generally, syntactic equality is too constrained, and one wants to identify proofs (at least) up to cut-elimination - which is similar to identifying λ-terms up to β-reduction. This is the case, for instance, when considering a denotational model or when studying isomorphisms.
+  We begin by giving intuitions for this problem in simply typed λ-calculus, where it is easily solved thanks to strong normalization and confluence of β-reduction. Then, we see which problems arise when trying to mimic this reasoning in Linear Logic. The main difficulty is that cut-elimination is only confluent up to an equivalence relation known as rule commutations, a result that is not easy to prove. In particular, it involves strong normalization of cut-elimination (and more), which is a known but far from trivial result in linear logic.
+  We conclude by showing that knowing whether two given proofs are equal up to rule commutations, or not, is undecidable. This entails that one cannot decide whether two proofs of linear logic are equal up to cut-elimination.
+  </p>
+  </details>
+  </li>
+  
+  <li>
   <i>Bayesian Networks and Proof-Nets: the proof-theory of Bayesian Inference</i>, <a href="https://indico.math.cnrs.fr/event/14513/">ArpiLYSM 2</a>, Arpino, 11 November 2025.
   <br>
   [
@@ -351,8 +369,8 @@ function lastupdatedfunct() {
   Abstract
   </summary>
   <p>
-  This talk studies the identity of proofs: when are two proofs equal? Generally, syntactic equality is too constraint, and one wants to (at least) identify proofs up to cut-elimination - which is similar to identifying &#955;-terms up to &beta;-reduction.
-  We begin by giving intuitions for this problem in simply typed &#955;-calculus, where it is easily solved thanks to strong normalization and confluence of &beta;-reduction. Then, we see which problems arise when trying to mimic this reasoning in Linear Logic. The main difficulty is that cut-elimination is only confluent up to an equivalence relation known as rule commutations, which is not easy to prove.
+  This talk studies the identity of proofs: when are two proofs equal? Generally, syntactic equality is too constraint, and one wants to (at least) identify proofs up to cut-elimination - which is similar to identifying λ-terms up to β-reduction.
+  We begin by giving intuitions for this problem in simply typed λ-calculus, where it is easily solved thanks to strong normalization and confluence of β-reduction. Then, we see which problems arise when trying to mimic this reasoning in Linear Logic. The main difficulty is that cut-elimination is only confluent up to an equivalence relation known as rule commutations, which is not easy to prove.
   We conclude by showing that knowing whether two given proofs are equal up to rule commutations, or not, is undecidable.
   </p>
   </details>
@@ -427,13 +445,13 @@ function lastupdatedfunct() {
   Abstract
   </summary>
   <p>
-  In a logical system, deciding whether two proofs, or two formulas, are equal is often complicated. Indeed, one usually does not want to identify only proofs that are syntactically equal, i.e. whose rules are exactly the same. In many sequent calculi, there is a cut rule that allows for computation - through a process called cut-elimination - and one wishes for two proofs related by such a computation to be equivalent. Looking at programs through the Curry-Howard correspondence, even if 2 + 2 and (1 + 2) + 1 are not strictly the same term, it is still very sensible to identify them. Another notion of identity on proofs is axiom-expansion, corresponding to the fact that a function f should be considered the same as x &#8614; f(x), the function that takes an input x and returns f(x), which is again very natural to ask for. Hence, proofs are seen as equivalent up to these two relations (at least), which in many logical systems is either a trivial nonsense or a combinatorial nightmare. Furthermore, these equalities between proofs yield a notion of equality between formulas, called isomorphism. Two formulas A and B are isomorphic if there are proofs between them whose compositions yield identities - up to the above equivalence relations. Intuitively, this means there is a loseless encoding between A and B, and thus they can be considered as the same; for instance, every use of A can be replaced with one use of B. I will present and give a survey of these two problems of equalities in the framework of linear logic.
+  In a logical system, deciding whether two proofs, or two formulas, are equal is often complicated. Indeed, one usually does not want to identify only proofs that are syntactically equal, i.e. whose rules are exactly the same. In many sequent calculi, there is a cut rule that allows for computation - through a process called cut-elimination - and one wishes for two proofs related by such a computation to be equivalent. Looking at programs through the Curry-Howard correspondence, even if 2 + 2 and (1 + 2) + 1 are not strictly the same term, it is still very sensible to identify them. Another notion of identity on proofs is axiom-expansion, corresponding to the fact that a function f should be considered the same as x ↦ f(x), the function that takes an input x and returns f(x), which is again very natural to ask for. Hence, proofs are seen as equivalent up to these two relations (at least), which in many logical systems is either a trivial nonsense or a combinatorial nightmare. Furthermore, these equalities between proofs yield a notion of equality between formulas, called isomorphism. Two formulas A and B are isomorphic if there are proofs between them whose compositions yield identities - up to the above equivalence relations. Intuitively, this means there is a loseless encoding between A and B, and thus they can be considered as the same; for instance, every use of A can be replaced with one use of B. I will present and give a survey of these two problems of equalities in the framework of linear logic.
   </p>
   </details>
   </li>
   
   <li>
-  <i>Identity of formulas and proofs</i>, <a href="https://sites.google.com/view/pacman2025-rome/">PACM&and;N 2025</a>, Rome, 16 May 2025.
+  <i>Identity of formulas and proofs</i>, <a href="https://sites.google.com/view/pacman2025-rome/">PACM∧N 2025</a>, Rome, 16 May 2025.
   <br>
   [
   <a href="talks/expose_PACMAN_2025.pdf"><span class="icon icon-slides"></span>Slides</a>
@@ -444,7 +462,7 @@ function lastupdatedfunct() {
   </summary>
   <p>
   In a logical system, deciding whether two proofs (or two formulas) are equal is usually complicated.
-Indeed, one usually does not want to identify only proofs that are syntactically equal, i.e. whose rules are exactly the same. In many sequent calculi, there is a cut rule that allows for computation - through a process called cut-elimination - and one wishes for two proofs related by such a computation to be the same. Looking at programs through the Curry-Howard correspondence, even if 2 + 2 and (1 + 2) + 1 are not strictly the same term, it is still very sensible to identify them. Another notion of identity on proofs is axiom-expansion, corresponding to the fact that a function f should be considered the same as x &#8614; f(x), the function that takes an input x and returns f(x), which is again very natural to ask for. Hence, proofs are seen as equivalent up to these two relations, which in general is either a trivial nonsense or a combinatorial nightmare.
+Indeed, one usually does not want to identify only proofs that are syntactically equal, i.e. whose rules are exactly the same. In many sequent calculi, there is a cut rule that allows for computation - through a process called cut-elimination - and one wishes for two proofs related by such a computation to be the same. Looking at programs through the Curry-Howard correspondence, even if 2 + 2 and (1 + 2) + 1 are not strictly the same term, it is still very sensible to identify them. Another notion of identity on proofs is axiom-expansion, corresponding to the fact that a function f should be considered the same as x ↦ f(x), the function that takes an input x and returns f(x), which is again very natural to ask for. Hence, proofs are seen as equivalent up to these two relations, which in general is either a trivial nonsense or a combinatorial nightmare.
 Furthermore, these equalities between proofs yield a notion of equality between formulas, called isomorphism. Two formulas A and B are isomorphic if there are proofs between them whose compositions yield identities - up to the above equivalence relations. Intuitively, this means there is a loseless encoding between A and B, and thus they can be considered as the same; for instance, every use of A can be replaced with one use of B.
   I will present this problem of equalities, in the setting of lambda-calculus and linear logic, along with some known results and difficulties.
   </p>
