@@ -33,6 +33,22 @@
   border-radius: 3px;
   padding: 6px 6px 3px 6px;
 }
+.note::before {
+  content: 'NOTE\A';
+  white-space: pre;
+  background-color: chartreuse;
+  font-family: monospace;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
+.draft::before {
+  content: 'DRAFT\A';
+  white-space: pre;
+  background-color: gold;
+  font-family: monospace;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
 
 /* Icons */
 .icon {

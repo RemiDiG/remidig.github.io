@@ -330,11 +330,11 @@ function lastupdatedfunct() {
 </ul>
 
 <h2>
-  Unpublished Short Notes (not even in my thesis)
+  Unpublished Short Notes & Drafts
 </h2>
 
 <ul>
-  <li>
+  <li class="note">
   <i>Proof Equivalence in Linear Logic is Undecidable</i>
   <br>
   [
@@ -350,7 +350,7 @@ function lastupdatedfunct() {
   </details>
   </li>
   
-  <li>
+  <li class="note">
   <i>Cut-Cut Commutations Are Not Superfluous</i>
   <br>
   [
@@ -363,6 +363,23 @@ function lastupdatedfunct() {
   <p>
   In the definition of a cut-elimination procedure, there often is a cut-cut commutation allowing to swap two cut-rules. This allows for instance to fully eliminate a chosen cut-rule without reducing other such rules in a proof. One may wonder whether such cut-cut steps are superfluous. We prove it is not the case in linear logic: some cut-free forms of a proof can only be reached using a cut-cut commutation.
   (Improved thanks to comments by <a href="https://perso.ens-lyon.fr/olivier.laurent/">Olivier Laurent</a>.)
+  </p>
+  </details>
+  </li>
+  
+  <li class="draft">
+  <i>Confluence Modulo and Undecidability of Cut-Elimination in Linear Logic</i>
+  <br>
+  [
+  <a href="papers/confluence_cut_ll.pdf"><span class="icon icon-pdf"></span>PDF</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  Proofs in a given logical system are usually considered (at least) up to cut-elimination. This is the case in linear logic, that additionally has another equivalence relation on proofs: rule commutation, which identifies proofs equal up to an irrelevant ordering of their rules. We prove these two notions coincide: two cut-free proofs are equal up to cut-elimination if and only if they are equal up to rule commutation. Our proof is modular enough to apply in many fragments of second-order linear logic, as well as in presence of axiom-expansion.
+  Furthermore, we show that, in propositional linear logic, knowing whether two given proofs are equal up to rule commutations, or not, is undecidable—which entails that equality up to cut-elimination is undecidable.
   </p>
   </details>
   </li>
