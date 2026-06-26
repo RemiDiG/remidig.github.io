@@ -61,6 +61,36 @@ function lastupdatedfunct() {
 <!-- (in reverse chronological order) --> <!-- to add if more publications -->
 
 <ul>
+  <li class="workshop">
+  <i>Quantum Bayesian Networks: Compositionality and Typing via Linear Logic</i>
+  <br>
+  With <a href="https://www.irif.fr/~ehrhard/">Thomas Ehrhard</a> and <a href="https://www.irif.fr/~faggian/">Claudia Faggian</a> at <a href="https://liqcs2026.github.io/">LIQCS&nbsp;2026</a>
+  <br>
+  <b>See the <a href="#Quantum_Bayesian_Networks_Compositionality_and_Typing_via_Linear_Logic">conference version</a> for more details</b>
+  <br>
+  [
+  <a href="papers/qbn_LIQCS.pdf"><span class="icon icon-pdf"></span>PDF</a>&nbsp;|
+  <a href="https://liqcs2026.github.io/assets/pdfs/LIQCS_2026_extended_abstract_17.pdf"><span class="icon icon-file"></span>Preprint</a><!--&nbsp;|
+  <a href="talks/rocqseq_TLLA_2025.pdf"><span class="icon icon-slides"></span>Slides</a>&nbsp;|
+  <a href="https://hal.science/hal-05198754"><span class="icon icon-hal"></span>HAL</a>&nbsp;|
+  <a href="papers/rocqtlla2025.bib"><span class="icon icon-bib"></span>BibTeX</a>&nbsp;|
+  -->
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  Quantum Bayesian networks provide a mathematical formalism to describe causal relations, to analyse correlations, and to predict the probabilities of measurement outcomes, in systems involving
+both classical and quantum data. They generalize Pearl’s Bayesian networks—prominent graphical models for classical probabilistic reasoning and inference.
+  <br>
+  This extended abstract reports on work which brings compositional principles and a typing discipline into this setting. A key feature of our compositional semantics is that when all causes are classical, it coincides with the standard factor-based semantics of Bayesian networks, while in the purely quantum case it reduces to tensor networks. We then propose a typed formalism based on linear logic proof-nets, where types ensure well-behaved composition of systems.
+  </p>
+  </details>
+  <br>
+  <img class="illustration" src="illustrations/qbn.png" alt="A quantum Bayesian proof-net">
+  </li>
+  
   <li class="journal" id="Type_Isomorphisms_for_Multiplicative-Additive_Linear_Logic_Journal">
   <i>Type Isomorphisms for Multiplicative-Additive Linear Logic</i>
   <br>
@@ -239,18 +269,8 @@ function lastupdatedfunct() {
 </ul>
 
 <!-- Publications in progress -->
-<!--
 <h2>
   Accepted but not yet published
-</h2>
-
-<ul>
-</ul>
--->
-
-<!-- Submissions in progress -->
-<h2>
-  Submissions
 </h2>
 
 <ul>
@@ -282,34 +302,6 @@ function lastupdatedfunct() {
   <br>
   <img class="illustration" src="illustrations/qbn.png" alt="A quantum Bayesian proof-net">
   </li>
-  
-  <li class="workshop" id="Confluence_Modulo_TLLA">
-  <i>Confluence Modulo and Undecidability of Cut-Elimination</i>
-  <br>
-  At <a href="https://lipn.univ-paris13.fr/TLLA/2026/">TLLA&nbsp;2026</a>
-  <br>
-  [
-  <a href="papers/confluence_cut_ll_tlla2026.pdf"><span class="icon icon-pdf"></span>PDF</a>&nbsp;|
-  <!--
-  <a href="talks/rocqseq_TLLA_2025.pdf"><span class="icon icon-slides"></span>Slides</a>&nbsp;|
-  <a href="https://hal.science/hal-05198754"><span class="icon icon-hal"></span>HAL</a>&nbsp;|
-  <a href="https://lipn.univ-paris13.fr/TLLA/2025/abstracts/01-diguardia-laurent.pdf"><span class="icon icon-file"></span>Preprint</a>&nbsp;|
-  <a href="papers/rocqtlla2025.bib"><span class="icon icon-bib"></span>BibTeX</a>&nbsp;|
-  -->
-  cf. <a href="#Confluence_Modulo">an extended draft</a>
-  ]
-  <details>
-  <summary>
-  Abstract
-  </summary>
-  <p>
-  Proofs in a logic are usually considered (at least) up to cut-elimination. This is the case in linear logic, that also has another equivalence relation on proofs: rule commutation. We prove these two notions coincide in second-order linear logic and many of its fragments. Moreover, we show that equality up to rule commutation is undecidable in propositional linear logic—and so is equality up to cut-elimination.
-  </p>
-  </details>
-  <br>
-  <img class="illustration" src="illustrations/confluence_cut_ll_tlla2026.png" alt="A critical pair for cut-elimination">
-  </li>
-  
   <li class="conference" id="Quantum_Bayesian_Networks_Compositionality_and_Typing_via_Linear_Logic">
   <i>Quantum Bayesian Networks: Compositionality and Typing via Linear Logic</i>
   <br>
@@ -343,36 +335,40 @@ where types ensure well-behaved composition of systems, and which we prove sound
   <img class="illustration" src="illustrations/qbn.png" alt="A quantum Bayesian proof-net">
   </li>
   
-  <li class="workshop">
-  <i>Quantum Bayesian Networks: Compositionality and Typing via Linear Logic</i>
+  <li class="workshop" id="Confluence_Modulo_TLLA">
+  <i>Confluence Modulo and Undecidability of Cut-Elimination</i>
   <br>
-  With <a href="https://www.irif.fr/~ehrhard/">Thomas Ehrhard</a> and <a href="https://www.irif.fr/~faggian/">Claudia Faggian</a> at <a href="https://liqcs2026.github.io/">LIQCS&nbsp;2026</a>
-  <br>
-  <b>See the <a href="#Quantum_Bayesian_Networks_Compositionality_and_Typing_via_Linear_Logic">conference version</a> for more details</b>
+  At <a href="https://lipn.univ-paris13.fr/TLLA/2026/">TLLA&nbsp;2026</a>
   <br>
   [
-  <a href="papers/qbn_LIQCS.pdf"><span class="icon icon-pdf"></span>PDF</a>&nbsp;|
-  <a href="https://liqcs2026.github.io/assets/pdfs/LIQCS_2026_extended_abstract_17.pdf"><span class="icon icon-file"></span>Preprint</a><!--&nbsp;|
+  <a href="papers/confluence_cut_ll_tlla2026.pdf"><span class="icon icon-pdf"></span>PDF</a>&nbsp;|
+  <!--
   <a href="talks/rocqseq_TLLA_2025.pdf"><span class="icon icon-slides"></span>Slides</a>&nbsp;|
   <a href="https://hal.science/hal-05198754"><span class="icon icon-hal"></span>HAL</a>&nbsp;|
+  <a href="https://lipn.univ-paris13.fr/TLLA/2025/abstracts/01-diguardia-laurent.pdf"><span class="icon icon-file"></span>Preprint</a>&nbsp;|
   <a href="papers/rocqtlla2025.bib"><span class="icon icon-bib"></span>BibTeX</a>&nbsp;|
   -->
+  cf. <a href="#Confluence_Modulo">an extended draft</a>
   ]
   <details>
   <summary>
   Abstract
   </summary>
   <p>
-  Quantum Bayesian networks provide a mathematical formalism to describe causal relations, to analyse correlations, and to predict the probabilities of measurement outcomes, in systems involving
-both classical and quantum data. They generalize Pearl’s Bayesian networks—prominent graphical models for classical probabilistic reasoning and inference.
-  <br>
-  This extended abstract reports on work which brings compositional principles and a typing discipline into this setting. A key feature of our compositional semantics is that when all causes are classical, it coincides with the standard factor-based semantics of Bayesian networks, while in the purely quantum case it reduces to tensor networks. We then propose a typed formalism based on linear logic proof-nets, where types ensure well-behaved composition of systems.
+  Proofs in a logic are usually considered (at least) up to cut-elimination. This is the case in linear logic, that also has another equivalence relation on proofs: rule commutation. We prove these two notions coincide in second-order linear logic and many of its fragments. Moreover, we show that equality up to rule commutation is undecidable in propositional linear logic—and so is equality up to cut-elimination.
   </p>
   </details>
   <br>
-  <img class="illustration" src="illustrations/qbn.png" alt="A quantum Bayesian proof-net">
+  <img class="illustration" src="illustrations/confluence_cut_ll_tlla2026.png" alt="A critical pair for cut-elimination">
   </li>
-  
+</ul>
+
+<!-- Submissions in progress -->
+<h2>
+  Submissions
+</h2>
+
+<ul>
   <li class="journal" id="Yeo's_Theorem_for_Locally_Colored_Graphs:_the_Path_to_Sequentialization_in_Linear_Logic_Journal">
   <i>Yeo's Theorem for Locally Colored Graphs: the Path to Sequentialization in Linear Logic</i>
   <br>
@@ -515,6 +511,22 @@ both classical and quantum data. They generalize Pearl’s Bayesian networks—p
   Talks
 </h2>
 <ul>
+  <li>
+  <i>No Uniform Interpolation for Linear Logic</i>, <a href="https://irn-li.math.cnrs.fr/journees2026.html">General meeting 2026</a> of the <a href="https://irn-li.math.cnrs.fr/index.html">IRN LI</a>, Lyon, 24 June 2026.
+  <br>
+  [
+  <a href="talks/expose_LI_2026.pdf"><span class="icon icon-slides"></span>Slides</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  Few results are known on uniform interpolation for linear logic, the main one being that Multiplicative-Additive Linear Logic has the uniform interpolation property (and so does its intuitionistic variant) [Alizadeh, Derakhshan, Ono 2014]. We present a simple counter-example to this property for formulas of Multiplicative-Exponential Linear Logic (and its intuitionistic variant).
+  </p>
+  </details>
+  </li>
+  
   <li>
   <i>Quantum Bayesian Networks: Compositionality and Typing via Linear Logic</i>, <a href="https://liqcs2026.github.io/">LIQCS 2026</a>, Paris, 18 June 2026.
   <br>
@@ -712,7 +724,7 @@ Furthermore, these equalities between proofs yield a notion of equality between 
   </li>
   
   <li>
-  <i>Yeo's Theorem for Locally Colored Graphs: the Path to Sequentialization in Linear Logic</i>, <a href="https://irn-li.math.cnrs.fr/kickoff.html">Kickoff meeting</a> of the <a href="https://irn-li.math.cnrs.fr/index.html">IRN-LI</a>, Rome, 12 May 2025.
+  <i>Yeo's Theorem for Locally Colored Graphs: the Path to Sequentialization in Linear Logic</i>, <a href="https://irn-li.math.cnrs.fr/kickoff.html">Kickoff meeting</a> of the <a href="https://irn-li.math.cnrs.fr/index.html">IRN LI</a>, Rome, 12 May 2025.
   <br>
   [
   <a href="talks/expose_LI_2025.pdf"><span class="icon icon-slides"></span>Slides</a>
