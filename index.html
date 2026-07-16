@@ -61,6 +61,66 @@ function lastupdatedfunct() {
 <!-- (in reverse chronological order) --> <!-- to add if more publications -->
 
 <ul>
+  <li class="conference" id="Quantum_Bayesian_Networks_Compositionality_and_Typing_via_Linear_Logic">
+  <i>Quantum Bayesian Networks: Compositionality and Typing via Linear Logic</i>
+  <br>
+  With <a href="https://www.irif.fr/~ehrhard/">Thomas Ehrhard</a> and <a href="https://www.irif.fr/~faggian/">Claudia Faggian</a> at <a href="https://fscd2026.github.io/">FSCD&nbsp;2026</a>
+  <br>
+  [
+  <a href="papers/qbn.pdf"><span class="icon icon-pdf"></span>PDF</a>&nbsp;|
+  <!--
+  <a href="talks/qbn_FSCD_2026.pdf"><span class="icon icon-slides"></span>Slides</a>&nbsp;|
+  -->
+  <a href="https://hal.science/hal-05549936"><span class="icon icon-hal"></span>HAL</a> (not up-to-date yet)&nbsp;|
+  <a href="https://arxiv.org/abs/2604.26059"><span class="icon icon-arxiv"></span>ARXIV</a>&nbsp;|
+  <a href="https://doi.org/10.4230/LIPIcs.FSCD.2026.16"><span class="icon icon-doi"></span>DOI</a>&nbsp;|
+  <a href="papers/qbn.bib"><span class="icon icon-bib"></span>BibTeX</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  Quantum Bayesian networks provide a mathematical formalism to describe causal relations, to analyse correlations, and to predict the probabilities of measurement outcomes, in systems involving
+both classical and quantum data. They generalize Pearl’s Bayesian networks—prominent graphical models for classical probabilistic reasoning and inference.
+  <br>
+  The goal of this paper is to bring compositional principles and a typing discipline into this setting. A key feature of our compositional semantics is that when all causes are classical, it coincides with the standard factor-based semantics of Bayesian networks, while in the purely quantum case it reduces to tensor networks. We then propose a typed formalism based on linear logic proof-nets,
+where types ensure well-behaved composition of systems, and which we prove sound and complete with respect to quantum Bayesian networks.
+  </p>
+  </details>
+  <br>
+  <img class="illustration" src="illustrations/qbn.png" alt="A quantum Bayesian proof-net">
+  </li>
+  
+  <li class="workshop" id="Confluence_Modulo_TLLA">
+  <i>Confluence Modulo and Undecidability of Cut-Elimination</i>
+  <br>
+  At <a href="https://lipn.univ-paris13.fr/TLLA/2026/">TLLA&nbsp;2026</a>
+  <br>
+  [
+  <a href="papers/confluence_cut_ll_tlla2026.pdf"><span class="icon icon-pdf"></span>PDF</a>&nbsp;|
+  <!--
+  <a href="talks/rocqseq_TLLA_2025.pdf"><span class="icon icon-slides"></span>Slides</a>&nbsp;|
+  <a href="https://hal.science/hal-05198754"><span class="icon icon-hal"></span>HAL</a>&nbsp;|
+  -->
+  <a href="https://lipn.univ-paris13.fr/TLLA/2026/abstracts/tlla-final3.pdf"><span class="icon icon-file"></span>Preprint</a>&nbsp;|
+  <!--
+  <a href="papers/confluence_cut_ll_tlla2026.bib"><span class="icon icon-bib"></span>BibTeX</a>&nbsp;|
+  -->
+  cf. <a href="#Confluence_Modulo">an extended draft</a>
+  ]
+  <details>
+  <summary>
+  Abstract
+  </summary>
+  <p>
+  Proofs in a logic are usually considered (at least) up to cut-elimination. This is the case in linear logic, that also has another equivalence relation on proofs: rule commutation. We prove these two notions coincide in second-order linear logic and many of its fragments. Moreover, we show that equality up to rule commutation is undecidable in propositional linear logic—and so is equality up to cut-elimination.
+  </p>
+  </details>
+  <br>
+  <img class="illustration" src="illustrations/confluence_cut_ll_tlla2026.png" alt="A critical pair for cut-elimination">
+  </li>
+  
   <li class="workshop">
   <i>Quantum Bayesian Networks: Compositionality and Typing via Linear Logic</i>
   <br>
@@ -301,68 +361,6 @@ both classical and quantum data. They generalize Pearl’s Bayesian networks—p
   </details>
   <br>
   <img class="illustration" src="illustrations/qbn.png" alt="A quantum Bayesian proof-net">
-  </li>
-  
-  <li class="conference" id="Quantum_Bayesian_Networks_Compositionality_and_Typing_via_Linear_Logic">
-  <i>Quantum Bayesian Networks: Compositionality and Typing via Linear Logic</i>
-  <br>
-  With <a href="https://www.irif.fr/~ehrhard/">Thomas Ehrhard</a> and <a href="https://www.irif.fr/~faggian/">Claudia Faggian</a> at <a href="https://fscd2026.github.io/">FSCD&nbsp;2026</a>
-  <br>
-  [
-  <a href="papers/qbn.pdf"><span class="icon icon-pdf"></span>PDF</a>&nbsp;|
-  <!--
-  <a href="talks/seqmll_FSCD_2025.pdf"><span class="icon icon-slides"></span>Slides</a>&nbsp;|
-  -->
-  <a href="https://hal.science/hal-05549936"><span class="icon icon-hal"></span>HAL</a> (not up-to-date yet)&nbsp;|
-  <a href="https://arxiv.org/abs/2604.26059"><span class="icon icon-arxiv"></span>ARXIV</a> (not up-to-date yet)<!--&nbsp;|
-  <a href="https://drops.dagstuhl.de/storage/00lipics/lipics-vol337-fscd2025/html/LIPIcs.FSCD.2025.16/LIPIcs.FSCD.2025.16.html"><span class="icon icon-html"></span>HTML</a>&nbsp;|
-  <a href="https://doi.org/10.4230/LIPIcs.FSCD.2025.16"><span class="icon icon-doi"></span>DOI</a>&nbsp;|
-  <a href="papers/mllyeoseq.bib"><span class="icon icon-bib"></span>BibTeX</a>
-  -->
-  ]
-  <details>
-  <summary>
-  Abstract
-  </summary>
-  <p>
-  Quantum Bayesian networks provide a mathematical formalism to describe causal relations, to analyse correlations, and to predict the probabilities of measurement outcomes, in systems involving
-both classical and quantum data. They generalize Pearl’s Bayesian networks—prominent graphical models for classical probabilistic reasoning and inference.
-  <br>
-  The goal of this paper is to bring compositional principles and a typing discipline into this setting. A key feature of our compositional semantics is that when all causes are classical, it coincides with the standard factor-based semantics of Bayesian networks, while in the purely quantum case it reduces to tensor networks. We then propose a typed formalism based on linear logic proof-nets,
-where types ensure well-behaved composition of systems, and which we prove sound and complete with respect to quantum Bayesian networks.
-  </p>
-  </details>
-  <br>
-  <img class="illustration" src="illustrations/qbn.png" alt="A quantum Bayesian proof-net">
-  </li>
-  
-  <li class="workshop" id="Confluence_Modulo_TLLA">
-  <i>Confluence Modulo and Undecidability of Cut-Elimination</i>
-  <br>
-  At <a href="https://lipn.univ-paris13.fr/TLLA/2026/">TLLA&nbsp;2026</a>
-  <br>
-  [
-  <a href="papers/confluence_cut_ll_tlla2026.pdf"><span class="icon icon-pdf"></span>PDF</a>&nbsp;|
-  <!--
-  <a href="talks/rocqseq_TLLA_2025.pdf"><span class="icon icon-slides"></span>Slides</a>&nbsp;|
-  <a href="https://hal.science/hal-05198754"><span class="icon icon-hal"></span>HAL</a>&nbsp;|
-  -->
-  <a href="https://lipn.univ-paris13.fr/TLLA/2026/abstracts/tlla-final3.pdf"><span class="icon icon-file"></span>Preprint</a>&nbsp;|
-  <!--
-  <a href="papers/rocqtlla2025.bib"><span class="icon icon-bib"></span>BibTeX</a>&nbsp;|
-  -->
-  cf. <a href="#Confluence_Modulo">an extended draft</a>
-  ]
-  <details>
-  <summary>
-  Abstract
-  </summary>
-  <p>
-  Proofs in a logic are usually considered (at least) up to cut-elimination. This is the case in linear logic, that also has another equivalence relation on proofs: rule commutation. We prove these two notions coincide in second-order linear logic and many of its fragments. Moreover, we show that equality up to rule commutation is undecidable in propositional linear logic—and so is equality up to cut-elimination.
-  </p>
-  </details>
-  <br>
-  <img class="illustration" src="illustrations/confluence_cut_ll_tlla2026.png" alt="A critical pair for cut-elimination">
   </li>
 </ul>
 
