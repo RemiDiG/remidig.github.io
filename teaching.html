@@ -1,0 +1,99 @@
+<!-- Personal Webpage - Teaching & Service -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Rémi DI GUARDIA</title>
+<meta name="author" content="Rémi Di Guardia">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+<link rel="icon" href="images/irif.ico">
+</head>
+
+<body onload="lastupdatedfunct()">
+
+<header>
+  <h1>Rémi Di Guardia</h1>
+  <nav id="menu">
+    <span><a href="index.html">Home</a></span>
+    <span><a href="research.html">Research</a></span>
+    <span class="here"><a href="teaching.html">Teaching & Service</a></span>
+  </nav>
+</header>
+
+<h2>Teaching</h2>
+
+<ul>
+  <li>
+    2025
+    <ul>
+  <li>
+    I presented a proof of sequentialization for proof-nets of multiplicative linear logic during two lectures of <a href="https://www.irif.fr/~faggian/">Claudia Faggian</a> for <a href="https://www.irif.fr/~faggian/LMFI_2025/">LMFI 2024/2025</a> and <a href="https://www.irif.fr/~faggian/MPRI/">MPRI 2025/2026</a> (Université Paris Cité).
+    <br>
+    [
+    <a href="others/sequentialisation.pdf"><span class="icon icon-slides"></span>Slides</a>
+    ]
+  </li>
+    </ul>
+  </li>
+  <li>
+    2023 - 2024
+    <ul>
+      <li>
+        <i>Architecture des ordinateurs</i>, lectured by <a href="http://sylvain.brandel.pages.univ-lyon1.fr/">Sylvain Brandel</a> (L2 at Université Claude Bernard Lyon 1)
+      </li>
+      <li>
+        <i>Logique</i>, lectured by <a href="https://perso.ens-lyon.fr/natacha.portier/">Natacha Portier</a> (L3 at Ecole Normale Supérieure de Lyon)
+      </li>
+    </ul>
+  </li>
+  <li>
+    2022 - 2023
+    <ul>
+      <li>
+        <i>Compilation and Program Analysis</i>, lectured by <a href="https://www.irif.fr/~gradanne/">Gabriel Radanne</a> and <a href="https://lhenrio.github.io/">Ludovic Henrio</a> (M1 at Ecole Normale Supérieure de Lyon)
+      </li>
+      <li>
+        <i>Functional Project</i>, lectured by <a href="https://perso.ens-lyon.fr/daniel.hirschkoff/">Daniel Hirschkoff</a> (L3 at Ecole Normale Supérieure de Lyon)
+      </li>
+    </ul>
+  </li>
+  <li>
+    2021 - 2022
+    <ul>
+      <li>
+        <i>Compilation and Program Analysis</i>, lectured by <a href="https://www.irif.fr/~gradanne/">Gabriel Radanne</a> and <a href="https://lhenrio.github.io/">Ludovic Henrio</a> (M1 at Ecole Normale Supérieure de Lyon)
+      </li>
+      <li>
+        <i>Functional Project</i>, lectured by <a href="https://perso.ens-lyon.fr/daniel.hirschkoff/">Daniel Hirschkoff</a> (L3 at Ecole Normale Supérieure de Lyon)
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<!-- also some jury L3, M1 & M2 -->
+
+<h2>Service</h2>
+
+<ul>
+  <li>
+    Co-Organizer of the <a href="https://www.irif.fr/rencontres/pps2026/index">Journées PPS 2026</a> along with Gabriel Scherer, Hugo Herbelin, Nicolas Behr and Nuria Brede
+  </li>
+  <li>
+    Artifact Reviewer for <a href="https://popl26.sigplan.org/track/POPL-2026-artifact-evaluation">POPL&nbsp;2026</a>
+  </li>
+</ul>
+
+<footer>
+  Last updated the <span id='lastupdated'></span>
+
+  <script>
+    function lastupdatedfunct() {
+      var d = new Date(document.lastModified).toISOString();
+      document.getElementById("lastupdated").innerHTML = d.substr(8, 2) + "/" + d.substr(5, 2) + "/" + d.substr(0, 4);
+    }
+  </script>
+</footer>
+
+</body>
+</html>
