@@ -1,27 +1,7 @@
 /* Style for my Personal Webpage */
 
-/* General */
 body {
   margin:1% 3% 1% 3%;
-}
-
-ul {
-  padding-left: 20px;
-}
-
-/* Navigation menu */
-nav#menu span {
-  padding-right: 50px;
-  font-size: large;
-}
-
-nav#menu a {
-  color:black;
-  text-decoration-line: none;
-}
-
-.here {
-  text-decoration: underline;
 }
 
 /* Header & Footer */
@@ -40,60 +20,36 @@ footer {
   text-align: right;
 }
 
-/* Type of publications */
-.workshop::before {
-  content: 'WORKSHOP\A';
-  white-space: pre;
-  background-color: turquoise;
-  font-family: monospace;
-  border-radius: 3px;
-  padding: 6px 6px 3px 6px;
+/* Navigation menu */
+nav#menu span {
+  padding-right: 50px;
+  font-size: large;
 }
-.conference::before {
-  content: 'CONFERENCE\A';
-  white-space: pre;
-  background-color: orange;
-  font-family: monospace;
-  border-radius: 3px;
-  padding: 6px 6px 3px 6px;
+
+nav#menu a {
+  color:black;
+  text-decoration-line: none;
 }
-.journal::before {
-  content: 'JOURNAL\A';
-  white-space: pre;
-  background-color: violet;
-  font-family: monospace;
-  border-radius: 3px;
-  padding: 6px 6px 3px 6px;
+
+.here {
+  text-decoration: underline;
 }
-.thesis::before {
-  content: 'THESIS\A';
-  white-space: pre;
-  background-color: crimson;
-  font-family: monospace;
-  border-radius: 3px;
-  padding: 6px 6px 3px 6px;
+
+/* Lists */
+ul {
+  padding-left: 30px;
 }
-.note::before {
-  content: 'NOTE\A';
-  white-space: pre;
-  background-color: chartreuse;
-  font-family: monospace;
-  border-radius: 3px;
-  padding: 6px 6px 3px 6px;
-}
-.draft::before {
-  content: 'DRAFT\A';
-  white-space: pre;
-  background-color: gold;
-  font-family: monospace;
-  border-radius: 3px;
-  padding: 6px 6px 3px 6px;
+
+ul.publications {
+  list-style: none;
+  padding-left: 0;
 }
 
 /* Illustration for papers */
 .grid-container {
   display: grid;
   grid-template-columns: 55% 45%;
+  padding-left: 30px;
 }
 
 .illustration {
@@ -104,10 +60,89 @@ footer {
   margin-right: auto;
 }
 
+/* Type of publications */
+.workshop::before {
+  content: 'WORKSHOP';
+  background-color: turquoise;
+  font-family: monospace;
+  font-size: large;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
+
+.conference::before {
+  content: 'CONFERENCE';
+  background-color: orange;
+  font-family: monospace;
+  font-size: large;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
+
+.journal::before {
+  content: 'JOURNAL';
+  background-color: violet;
+  font-family: monospace;
+  font-size: large;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
+
+.thesis::before {
+  content: 'THESIS';
+  background-color: crimson;
+  font-family: monospace;
+  font-size: large;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
+
+.note::before {
+  content: 'NOTE';
+  background-color: chartreuse;
+  font-family: monospace;
+  font-size: large;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
+
+.draft::before {
+  content: 'DRAFT';
+  background-color: gold;
+  font-family: monospace;
+  font-size: large;
+  border-radius: 3px;
+  padding: 6px 6px 3px 6px;
+}
+
+/* Button with icon for file */
+div.files {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 5px;
+  padding: 5px 0px 5px 0px;
+}
+
+div.files a {
+  text-decoration: none;
+  border-radius: 5px;
+  padding: 5px;
+  margin-right: 5px;
+  color: DarkBlue;
+  background: #e1e1e1;
+}
+
+div.files a:hover {
+  background: LightSkyBlue;
+}
+
 /* Images */
 .icon {
   height: 20px;
-  vertical-align:middle;
+  vertical-align: sub;
   padding: 0px 5px 0px 0px;
 }
 .icon-pdf {
