@@ -45,6 +45,15 @@ ul.publications {
   padding-left: 0;
 }
 
+li {
+  padding: 0px 0px 5px 0px;
+}
+
+.title {
+  font-family: cursive;
+  font-size: 140%;
+}
+
 /* Illustration for papers */
 .grid-container {
   display: grid;
