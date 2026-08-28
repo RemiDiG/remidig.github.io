@@ -1,7 +1,10 @@
 /* Style for my Personal Webpage */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
-  margin:1% 5% 1% 5%;
+  margin: 1% 5% 1% 5%;
 }
 
 /* Header & Footer */
@@ -27,7 +30,7 @@ nav#menu span {
 }
 
 nav#menu a {
-  color:black;
+  color: black;
   text-decoration-line: none;
 }
 
@@ -50,8 +53,7 @@ li {
 }
 
 .title {
-  font-family: cursive;
-  font-size: 140%;
+  font-style: italic;
 }
 
 /* Illustration for papers */
@@ -100,6 +102,7 @@ li {
 .thesis::before {
   content: 'THESIS';
   background-color: crimson;
+  color: white;
   font-family: monospace;
   font-size: large;
   border-radius: 3px;
@@ -146,7 +149,7 @@ div.files a {
 }
 
 div.files a:hover {
-  background: LightSkyBlue;
+  background: Ivory;
 }
 
 /* Images */
