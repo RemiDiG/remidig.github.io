@@ -199,3 +199,7 @@ div.files a:hover {
 .bl {
   font-size: 20px;
 }
+
+.faded {
+  opacity: 0.5;
+}
