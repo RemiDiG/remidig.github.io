@@ -153,8 +153,8 @@ div.files a:hover {
 
 /* Images */
 .icon {
-  height: 20px;
-  vertical-align: sub;
+  height: 22px;
+  vertical-align: top;
   padding: 0px 5px 0px 0px;
 }
 .icon-pdf {
@@ -186,6 +186,12 @@ div.files a:hover {
 }
 .icon-lmcs {
   content: url("images/lmcs.png");
+}
+.icon-dagstuhl {
+  content: url("images/dagstuhl.ico");
+}
+.icon-tlla {
+  content: url("images/tlla.png");
 }
 
 .icon-right {
