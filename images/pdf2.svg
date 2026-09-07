@@ -1,0 +1,113 @@
+<svg
+   width="38"
+   height="34"
+   viewBox="0 0 10.054167 8.9958332"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="pdf.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   inkscape:export-filename="PDF 3.svg"
+   inkscape:export-xdpi="90.344566"
+   inkscape:export-ydpi="90.344566"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <title
+     id="title15637">PDF Logo</title>
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="11.313709"
+     inkscape:cx="45.961939"
+     inkscape:cy="4.1984463"
+     inkscape:window-width="2560"
+     inkscape:window-height="1371"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showguides="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid9"
+       spacingx="0.13229167"
+       spacingy="0.13229167"
+       empspacing="4"
+       originx="3.5332915"
+       originy="0.11770831" />
+  </sodipodi:namedview>
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(1.8134997,0.11770832)">
+    <g
+       id="g12158"
+       transform="translate(0.92406516)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.501626;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+         d="m 0.13738127,3.4511545 1.4e-7,-2.65443988 c 0,-0.39816596 0.26544397,-0.66360993 0.66360992,-0.66360993 H 3.5160443 C 4.1200871,0.73717458 5.4991773,2.1157957 6.1417237,2.7583247 v 5.2053771 c 0,0.3981659 -0.2654439,0.6636099 -0.6636099,0.6636099 H 0.80099133 c -0.39816595,0 -0.66360992,-0.265444 -0.66360992,-0.6636099 l -1.4e-7,-0.2654439"
+         id="path2453"
+         sodipodi:nodetypes="cccccccccc" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.501626;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+         d="m 3.5167133,0.13310457 -2e-7,1.96133863 c 0,0.3981659 0.2654439,0.6636099 0.6636098,0.6636099 l 1.9612339,-1e-7"
+         id="path12374"
+         sodipodi:nodetypes="cccc" />
+      <g
+         id="g12146"
+         transform="matrix(1.0833335,0,0,1.0833335,8.3619364,2.1166664)">
+        <rect
+           style="fill:#e4332a;fill-opacity:1;stroke-width:0.499999;stroke-linejoin:round;stroke-miterlimit:0"
+           id="rect12087"
+           width="6.4822922"
+           height="3.175"
+           x="-9.3927088"
+           y="1.5875001"
+           ry="0.15345839" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.90352px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.457247;stroke-linejoin:round;stroke-miterlimit:0"
+           x="-9.0958233"
+           y="4.2333331"
+           id="text12033"><tspan
+             sodipodi:role="line"
+             id="tspan12031"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.90352px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Bold';fill:#ffffff;fill-opacity:1;stroke-width:0.457247"
+             x="-9.0958233"
+             y="4.2333331">PDF</tspan></text>
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata15633">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Nathan Tien You</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:title>PDF Logo</dc:title>
+        <dc:date>17/02/2025</dc:date>
+        <cc:license
+           rdf:resource="https://www.gnu.org/licenses/agpl-3.0.txt" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
