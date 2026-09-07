@@ -59,10 +59,10 @@
     <br>
     <div class="files">
       <a href="papers/qbn_PS.pdf"><span class="icon icon-pdf"></span>PDF</a>
+      <a href="talks/expose_PS_2026.pdf"><span class="icon icon-slides"></span>Slides</a>
+      <a href="https://proofsociety26.sciencesconf.org/763805"><span class="icon icon-file"></span>Publisher</a>
       <!--
-      <a href="talks/rocqseq_TLLA_2025.pdf"><span class="icon icon-slides"></span>Slides</a>
       <a href="https://hal.science/hal-05198754"><span class="icon icon-hal"></span>HAL</a>
-      <a href="https://lipn.univ-paris13.fr/TLLA/2025/abstracts/01-diguardia-laurent.pdf"><span class="icon icon-file"></span>Publisher</a>
       <a href="papers/rocqtlla2025.bib"><span class="icon icon-bib"></span>BibTeX</a>
       -->
     </div>
@@ -357,12 +357,31 @@ both classical and quantum data. They generalize Pearl’s Bayesian networks—p
 
 <h2 id="software_development">Software Developments</h2>
 
-<ul>
-  <li>
-    Formalisation of the Proof-Nets of Multiplicative Linear Logic in <a href="https://rocq-prover.org/">Rocq<img class="icon-right" src="images/avatar-rocq-5.svg" alt=""></a> (previously known as Coq), available on <a href="https://github.com/RemiDiG/proofnet_mll">github<img class="icon-right" src="images/github.svg" alt=""></a> (up-to-date), <a href="https://archive.softwareheritage.org/browse/directory/53def4330cb28b417c83405f68a67a9735a95d1d/">Software Heritage<img class="icon-right" src="images/swh-logo.png" alt=""></a> and <a href="https://hal.science/hal-05015800">HAL<img class="icon-right" src="images/hal.png" alt=""></a>
+<ul class="publications">
+  <li class="formalisation">
+  <div class="grid-container-no-image">
+  <div>
+    <span class="title">Relation Extraction</span>
+    <br>
+    Update and improve the <a href="https://rocq-prover.org/">Rocq<img class="icon-right" src="images/avatar-rocq-5.svg" alt=""></a> plugin <a href="https://rocq-prover.org/p/coq-relation-extraction">Relation Extraction</a> (with developments on github <a href="https://github.com/rocq-archive/relation-extraction">here<img class="icon-right" src="images/github.svg" alt=""></a> then <a href="https://github.com/herbelin/RelationExtraction">here<img class="icon-right" src="images/github.svg" alt=""></a>).
+    This plugin introduces a set of extraction commands that generates functional code from inductive specifications.
+    <br>
+    I ported it from Coq 8.12 to Rocq 9.1 and improved some of the code, but this is still a work in progress, available <a href="https://github.com/RemiDiG/RelationExtraction">here<img class="icon-right" src="images/github.svg" alt=""></a>.
+    I plan to upload it on Rocq once a few more bugs have been solved, hopefully before the end of 2026.
+  </div>
+  </div>
+  </li>
+  <li class="formalisation">
+  <div class="grid-container-no-image">
+  <div>
+    <span class="title">MLL Proof nets</span>
+    <br>
+    Formalisation of the Proof-Nets of Multiplicative Linear Logic in <a href="https://rocq-prover.org/">Rocq<img class="icon-right" src="images/avatar-rocq-5.svg" alt=""></a> (previously known as Coq), available on <a href="https://github.com/RemiDiG/proofnet_mll">github<img class="icon-right" src="images/github.svg" alt=""></a> (up-to-date), <a href="https://archive.softwareheritage.org/browse/directory/53def4330cb28b417c83405f68a67a9735a95d1d/">Software Heritage<img class="icon-right" src="images/swh-logo.png" alt=""></a> and <a href="https://hal.science/hal-05015800">HAL<img class="icon-right" src="images/hal.png" alt=""></a>.
     <br>
     The sequentialization theorem is proved here (with no admit), but there still are some simplifications to be done.
     There also is a definition of cut-elimination, and a proof it terminates.
+  </div>
+  </div>
   </li>
 </ul>
 
