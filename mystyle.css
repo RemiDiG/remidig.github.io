@@ -212,6 +212,12 @@ div.files a:hover {
 .icon-tlla {
   content: url("images/tlla.png");
 }
+.icon-github {
+  content: url("images/github.svg");
+}
+.icon-softwareheritage {
+  content: url("images/swh-logo.png");
+}
 
 .icon-right {
   max-height: 1.5em;
