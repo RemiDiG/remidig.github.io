@@ -1,1 +1,40 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="32 0 532 548"><!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc. --><path fill="#ff0000" d="M96 0C60.7 0 32 28.7 32 64l0 384c0 35.3 28.7 64 64 64l80 0 0-112c0-35.3 28.7-64 64-64l176 0 0-165.5c0-17-6.7-33.3-18.7-45.3L290.7 18.7C278.7 6.7 262.5 0 245.5 0L96 0zM357.5 176L264 176c-13.3 0-24-10.7-24-24L240 58.5 357.5 176zM240 380c-11 0-20 9-20 20l0 128c0 11 9 20 20 20s20-9 20-20l0-28 12 0c33.1 0 60-26.9 60-60s-26.9-60-60-60l-32 0zm32 80l-12 0 0-40 12 0c11 0 20 9 20 20s-9 20-20 20zm96-80c-11 0-20 9-20 20l0 128c0 11 9 20 20 20l32 0c28.7 0 52-23.3 52-52l0-64c0-28.7-23.3-52-52-52l-32 0zm20 128l0-88 12 0c6.6 0 12 5.4 12 12l0 64c0 6.6-5.4 12-12 12l-12 0zm88-108l0 128c0 11 9 20 20 20s20-9 20-20l0-44 28 0c11 0 20-9 20-20s-9-20-20-20l-28 0 0-24 28 0c11 0 20-9 20-20s-9-20-20-20l-48 0c-11 0-20 9-20 20z"/></svg>
+<svg
+   width="35"
+   height="34"
+   viewBox="0 0 3.68 8.88"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <path
+    style="fill:none;stroke:#000000;stroke-width:0.501626;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+    d="m 0.13738127,3.4511545 1.4e-7,-2.65443988 c 0,-0.39816596 0.26544397,-0.66360993 0.66360992,-0.66360993 H 3.5160443 C 4.1200871,0.73717458 5.4991773,2.1157957 6.1417237,2.7583247 v 5.2053771 c 0,0.3981659 -0.2654439,0.6636099 -0.6636099,0.6636099 H 0.80099133 c -0.39816595,0 -0.66360992,-0.265444 -0.66360992,-0.6636099 l -1.4e-7,-0.2654439"
+    id="path2453"
+    sodipodi:nodetypes="cccccccccc"
+  />
+  <path
+    style="fill:none;stroke:#000000;stroke-width:0.501626;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
+    d="m 3.5167133,0.13310457 -2e-7,1.96133863 c 0,0.3981659 0.2654439,0.6636099 0.6636098,0.6636099 l 1.9612339,-1e-7"
+    id="path12374"
+    sodipodi:nodetypes="cccc"
+  />
+  <g
+    transform="matrix(1.08,0,0,1.08,8.36,2.12)">
+    <rect
+      style="fill:#e4332a;fill-opacity:1"
+      width="7.3"
+      height="3.85"
+      x="-10.2"
+      y="1.26"
+    />
+    <text><tspan
+      style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.5px;font-family:FreeSans;-inkscape-font-specification:'FreeSans Bold';fill:#ffffff;fill-opacity:1"
+      x="-10.05"
+      y="4.45">PDF
+    </tspan></text>
+  </g>
+  <metadata>
+    <cc:license rdf:resource="https://www.gnu.org/licenses/agpl-3.0.txt" />
+  </metadata>
+</svg>
