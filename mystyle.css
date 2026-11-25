@@ -38,6 +38,15 @@ nav#menu a {
   text-decoration: underline;
 }
 
+/* Research overview (image) */
+.overview {
+  display: block;
+  max-width: 100%;
+  max-height: 20em;
+  padding: 1px 1px 1px 1px;
+  margin: 0 auto 0 auto;
+}
+
 /* Lists */
 ul {
   padding-left: 30px;
